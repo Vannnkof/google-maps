@@ -1,3 +1,50 @@
 .main {
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+
+  &-title {
+    margin: 0;
+    margin-top: 15px;
+    color: #000;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+
+  &-title {
+    margin: 0;
+    color: #665CD1;
+    font-family: Mulish;
+    font-size: 19px;
+    font-weight: 700;
+  }
+
+  &-points {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &-point {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      &-title {
+        color: #262626;
+        margin: 0;
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 700;
+      }
+    }
+  }
 }
